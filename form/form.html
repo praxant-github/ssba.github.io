@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kids School Registration Form</title>
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="styl1.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Registration Form</h1>
+		<form action="https://formsubmit.co/0d6880e094eacde88ca35495bd9fe221" method="POST">
+			<input type="text" name="_honey" style="display: none;">
+			<input type="hidden" name="_captcha" value="false">
+			<input type="hidden" name="_next" value="https://pranix-git.github.io/ssba.github.io/form/success.html">
+
+			<div class="form-group">
+				<label for="student-name" >Student Name:</label>
+				<input type="text" name="Student &nbsp; Name" id="student-name" required>
+			</div>
+			<div class="form-group">
+				<label for="parent-name">Parents Name:</label>
+				<input type="text" name="Parents &nbsp; Name" id="parent-name" required>
+			</div>
+			<div class="form-group">
+				<label for="phone-number">Phone Number:</label>
+				<input type="tel" name="Phone &nbsp; Number" id="phone-number" required>
+			</div>
+			<div class="form-group">
+				<label for="address">Address:</label>
+				<textarea id="address" name="Address" required></textarea>
+			</div>
+			<div class="form-group">
+				<label for="class-applying">Class Applying For:</label>
+				<select id="class-applying" name="Grade &nbsp; Applying &nbsp; For:  required>
+					<option value="select">Select Class</option>
+					<option value="PlayGroup">Play Group</option>
+					<option value="Nursery">Nursery</option>
+					<option value="LKG">LKG</option>
+					<option value="UKG">UKG</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="age" name="Age">Age:</label>
+				<input type="number" id="age" required>
+			</div>
+			<div class="form-group">
+				<label for="Gender" name="Gender">Gender:</label>
+				<div class="radio-group">
+					<input type="radio" id="male" name="Gender" value="male" required>
+					<label for="male">Male</label>
+					<input type="radio" id="female" name="Gender" value="female" required>
+					<label for="female">Female</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Submit">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
